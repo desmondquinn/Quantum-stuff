@@ -41,7 +41,7 @@ ei=np.argsort(b)    #returns indices that would sort the array
 ei=ei[0:4]          #considering the first 5
 
 
-#prints first 4 energy eigenvalues
+#prints first 4 energy eigenvalues (in Joules)
 print(b[ei[0:4]])
 
 
