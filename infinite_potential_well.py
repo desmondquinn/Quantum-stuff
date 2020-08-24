@@ -2,7 +2,7 @@
 This program solves the time independent Schrodinger equations for the case of an infinite potential well
 The first 4 energy values are calculated numerically and can be verified by the expression 
 E(n) = (n^2)*(h^2)/(8*m*L^2) obtained by the analytical solution
-The first 4 stationary states are plotted 
+The first 4 stationary states/modes are plotted 
 """
 
 import numpy as np
@@ -45,16 +45,15 @@ ei=ei[0:4]          #considering the first 5
 print(b[ei[0:4]])
 
 
-#psi are given by eigenvector*exp(eigenvalue)
 
 #mode 1
-s1=V[:,ei[0]]*np.exp(b[ei[0]])  
+s1=V[:,ei[0]]
 #mode 2
-s2=V[:,ei[1]]*np.exp(b[ei[1]])
+s2=V[:,ei[1]]
 #mode 3
-s3=V[:,ei[2]]*np.exp(b[ei[2]])
+s3=V[:,ei[2]]
 #mode 4
-s4=V[:,ei[3]]*np.exp(b[ei[3]])
+s4=V[:,ei[3]]
 
 #plot that represents the first 4 stationary states 
 fig,a =  plt.subplots(2,2)
