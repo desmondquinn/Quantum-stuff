@@ -21,7 +21,7 @@ dt = 0.25*(2*me/hbar)*(ddx**2)
 V = np.zeros((Nz))
 start = 300
 end = 500
-Vo = 250 #potentail barrier in eV
+Vo = 500 #potentail barrier in eV
 V[start:end] = Vo*(1.602e-19)   #converting the potential to joules
 
 #initiating a particle with wavelength lambda in a Gaussian envelope
