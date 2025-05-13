@@ -1,5 +1,8 @@
 # Quantum-stuff
 
+![tunelling 2](https://github.com/user-attachments/assets/0246c520-d303-4182-94f4-ed90a594c859)
+
+
 *This repo is mainly going to be some scenarios in quantum physics that I find fascinating*
 
 infinite_potential_well.py is a program for the infinite potential well problem in quantum physics. Although this might be a really simple problem
